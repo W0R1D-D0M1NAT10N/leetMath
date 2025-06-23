@@ -1,0 +1,60 @@
+---
+layout: default
+title: Home
+---
+<section class="text-center py-12">
+  <h1 class="text-4xl font-bold mb-4">Level Up Your Math Competition Skills</h1>
+  <p class="text-lg mb-6">Practice with curated problems and track your progress.</p>
+  <a href="#problems" class="bg-blue-600 text-white px-4 py-2 rounded">Start Solving</a>
+</section>
+<section id="features" class="grid md:grid-cols-3 gap-6 py-8">
+  <div class="p-4 border rounded">
+    <h2 class="text-xl font-semibold mb-2">Fresh Problems</h2>
+    <p>New contest-style questions added regularly.</p>
+  </div>
+  <div class="p-4 border rounded">
+    <h2 class="text-xl font-semibold mb-2">Step-by-Step Guides</h2>
+    <p>Learn strategies to tackle tough puzzles.</p>
+  </div>
+  <div class="p-4 border rounded">
+    <h2 class="text-xl font-semibold mb-2">Track Progress</h2>
+    <p>Save your results and see improvement over time.</p>
+  </div>
+</section>
+<section id="problems" class="py-8">
+  <h2 class="text-2xl font-bold mb-4">Sample Problems</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="p-4 border rounded">What is 1+1?</div>
+    <div class="p-4 border rounded">Solve for x: 2x + 3 = 7</div>
+    <div class="p-4 border rounded">Find the area of a 3x3 square.</div>
+  </div>
+</section>
+<section id="how-it-works" class="py-8">
+  <h2 class="text-2xl font-bold mb-4">How It Works</h2>
+  <ol class="list-decimal list-inside space-y-2">
+    <li>Create an account or sign in.</li>
+    <li>Browse the library of problems.</li>
+    <li>Submit answers and get instant feedback.</li>
+  </ol>
+</section>
+<section id="contact" class="py-8">
+  <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+  <form action="https://formspree.io/f/mayvlwep" method="POST" class="space-y-4">
+    <input type="email" name="email" placeholder="Email" class="w-full p-2 border rounded" required>
+    <textarea name="message" rows="4" placeholder="Message" class="w-full p-2 border rounded" required></textarea>
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send</button>
+  </form>
+</section>
+<section id="auth" class="py-8">
+  <h2 class="text-2xl font-bold mb-4">Sign Up / Sign In</h2>
+  <form id="signup-form" class="space-y-2">
+    <input type="email" id="signup-email" placeholder="Email" class="w-full p-2 border rounded" required>
+    <input type="password" id="signup-password" placeholder="Password" class="w-full p-2 border rounded" required>
+    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">Sign Up</button>
+  </form>
+  <form id="signin-form" class="space-y-2 mt-4">
+    <input type="email" id="signin-email" placeholder="Email" class="w-full p-2 border rounded" required>
+    <input type="password" id="signin-password" placeholder="Password" class="w-full p-2 border rounded" required>
+    <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Sign In</button>
+  </form>
+</section>
