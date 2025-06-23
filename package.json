@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build:css": "tailwindcss --input css/style.tailwind.css --output css/style.css --minify"
+    "build:css": "tailwindcss --input css/style.tailwind.css --output css/style.css --minify",
+    "watch": "tailwindcss --input css/style.tailwind.css --output css/style.css --watch"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.10",

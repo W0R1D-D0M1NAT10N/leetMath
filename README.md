@@ -11,7 +11,11 @@ A competition math practice site built with Jekyll and Tailwind CSS.
    ```
 2. Build Tailwind CSS:
    ```bash
-   npx tailwindcss --input css/style.tailwind.css --output css/style.css --minify
+   npm run build:css
+   ```
+   Or start the watcher to rebuild on save:
+   ```bash
+   npm run watch
    ```
 3. Serve with Jekyll:
    ```bash
